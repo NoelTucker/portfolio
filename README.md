@@ -1,1 +1,2 @@
-This is a catalog of my high school artwork.
+# Noel Tucker's Artwork
+A catalog of my high school artwork
