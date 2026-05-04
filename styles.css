@@ -1,44 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend');
 
 body{
-  background:#D5F2DD;
-  font-family:'Lexend';
-  padding:2em 5em;
+	background: #d5f2dd;
+	font-family: 'Lexend';
+	margin: 2em 5em;
 }
 
 a{
-  color:#3C78D8;
-  text-decoration:none;
+	color: #3c78d8;
+	text-decoration: none;
 }
 
 .gallery{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-.gallery-item{
-  width:15em;
-  margin:0.5em;
-}
-
-.gallery-item img{
-  width:100%;
-  border:0.1em solid #0C4466;
-}
-
-.video{
-  justify-content:center;
+.gallery-image{
+	width: 15em;
+	margin: 0.5em;
 }
 
 .video iframe{
-  width:100%;
-  aspect-ratio:16 / 9;
-  border:0.1em solid #0C4466;
+	aspect-ratio: 16 / 9;
+}
+
+.document iframe{
+	aspect-ratio: 4 / 3;
+}
+
+.gallery-image img,
+.video iframe,
+.document iframe{
+	width: 100%;
+	border: 0.1em solid #0c4466;
 }
 
 .caption{
-  font-size:small;
-  padding:1em;
-  text-align:center;
+	font-size: small;
+	padding: 1em;
+	text-align: center;
 }
