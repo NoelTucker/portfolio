@@ -3,7 +3,7 @@
 body{
 	background: #d5f2dd;
 	font-family: 'Lexend';
-	padding: 2em 5em;
+	margin: 2em 5em;
 }
 
 a{
@@ -17,23 +17,23 @@ a{
 	justify-content: center;
 }
 
-.gallery-item{
+.gallery-image{
 	width: 15em;
 	margin: 0.5em;
 }
 
-.gallery-item img{
-	width: 100%;
-	border: 0.1em solid #0c4466;
-}
-
-.video{
-	justify-content: center;
-}
-
 .video iframe{
-	width: 100%;
 	aspect-ratio: 16 / 9;
+}
+
+.document iframe{
+	aspect-ratio: 4 / 3;
+}
+
+.gallery-image img,
+.video iframe,
+.document iframe{
+	width: 100%;
 	border: 0.1em solid #0c4466;
 }
 
