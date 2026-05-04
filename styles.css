@@ -27,6 +27,8 @@ a{
 }
 
 .document iframe{
+	aspect-ratio: 4 / 3;
+	justify-content: center;
 }
 
 .gallery-image img,
