@@ -1,2 +1,2 @@
 # Noel Tucker's Artwork
-A catalog of my high school artwork
+A portfolio of my high school artwork and writing
