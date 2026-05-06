@@ -1,2 +1,2 @@
 # Portfolio
-A portfolio of my writing, film, artwork
+A portfolio of my writing, film, and artwork
