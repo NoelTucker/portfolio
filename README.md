@@ -1,2 +1,2 @@
-# Noel Tucker's Artwork
-A portfolio of my artwork and writing
+# Portfolio
+A portfolio of my writing, film, artwork
