@@ -11,6 +11,14 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	filter: brightness(120%);
+}
+
+a:active{
+	filter: brightness(80%);
+}
+
 .gallery{
 	display: flex;
 	flex-wrap: wrap;
@@ -40,5 +48,5 @@ a{
 .caption{
 	font-size: small;
 	text-align: center;
-	padding: 1em;
+	padding: 0.7em 0 1.5em 0;
 }
