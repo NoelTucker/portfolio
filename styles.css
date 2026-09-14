@@ -40,14 +40,7 @@ a:active{
 	margin: 0 15%;
 	width: 70%;
 	border: 0.19em solid #2c68c8;
-}
-
-.video iframe{
 	aspect-ratio: 16 / 9;
-}
-
-.document iframe{
-	aspect-ratio: 4 / 3;
 }
 
 .caption{
