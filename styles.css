@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900');
 
 body{
-	background: #d5f2dd;
-	font-family: 'Lexend', sans-serif;
+	background: #e5ffed;
+	font-family: 'Playfair Display', serif;
 	margin: 3.4em 5em 3em 5em;
 }
 
 a{
-	color: #3c78d8;
+	color: #2c68c8;
 	text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ a:active{
 .video iframe,
 .document iframe{
 	width: 100%;
-	border: 0.1em solid #0c4466;
+	border: 0.2em solid #2c68c8;
 }
 
 .caption{
