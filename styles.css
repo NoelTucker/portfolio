@@ -19,15 +19,25 @@ a:active{
 	filter: brightness(80%);
 }
 
-.gallery{
+.gallery,
+.video,
+.document{
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.gallery{
+	flex-wrap: wrap;
 }
 
 .gallery-image{
 	width: 15em;
 	margin: 0.5em;
+}
+
+.gallery-image img{
+	width: 100%;
+	border: 0.13em solid #2c68c8;
 }
 
 .video iframe{
@@ -36,11 +46,6 @@ a:active{
 
 .document iframe{
 	aspect-ratio: 4 / 3;
-}
-
-.gallery-image img{
-	width: 100%;
-	border: 0.1em solid #2c68c8;
 }
 
 .video iframe,
