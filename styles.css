@@ -19,14 +19,6 @@ a:active{
 	filter: brightness(80%);
 }
 
-.video,
-.document{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
 .gallery{
 	display: flex;
 	flex-wrap: wrap;
@@ -40,7 +32,12 @@ a:active{
 
 .gallery-image img{
 	width: 100%;
-	border: 0.12em solid #2c68c8;
+	border: 0.13em solid #2c68c8;
+}
+
+.video,
+.document{
+	margin: 0 auto;
 }
 
 .video iframe,
