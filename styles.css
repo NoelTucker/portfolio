@@ -19,15 +19,17 @@ a:active{
 	filter: brightness(80%);
 }
 
-.gallery,
 .video,
 .document{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 }
 
 .gallery{
+	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .gallery-image{
