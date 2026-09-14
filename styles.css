@@ -35,6 +35,11 @@ a:active{
 	border: 0.13em solid #2c68c8;
 }
 
+.video,
+.document{
+	width: 100%;
+}
+
 .video iframe,
 .document iframe{
 	width: 70%;
